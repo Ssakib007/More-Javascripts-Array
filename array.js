@@ -1,4 +1,5 @@
 const numbers = [12, 22, 54, 65, 12, 22, 54, 65];
+console.log(numbers);
 const passed = [true, false, true, false];
 
 const fruits = ["apple", "banana", "grape"];
@@ -15,6 +16,14 @@ console.log(fruits.length);
 console.log(numbers.length);
 
 const fruit = ["apple", "banana", "grape"];
+console.log(fruit);
+// output is [ 'apple', 'banana', 'grape' ]
 fruit[0] = "orange";
+// this command indicates the value of the Index position 0 of the array named "fruit"
 console.log(fruit);
 //  output [ 'orange', 'banana', 'grape' ]
+
+const numb = [12, 22, 54, 65, 12, 22, 54, 65];
+const fourth = numb[4];
+console.log(fourth);
+// output is 12 cause Index number 4 contains the value 12, which was assigned to the variable named "fourth"
