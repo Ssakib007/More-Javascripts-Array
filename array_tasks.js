@@ -17,6 +17,9 @@ console.log(fruits);
 // d.Remove the last tourist destination you have added
 // e.display the final array as output
 
+
+
+
 // 3. Checking Array Membership with ‘includes’
 // Instructions:
 
